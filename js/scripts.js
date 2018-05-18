@@ -31,7 +31,7 @@ $('#contactForm').on('submit',function(e) {
 	{
 		type:"POST",
 		username: 'api',
-		password: 'key-YOUR-KEY',
+		password: 'key-8qm24mb7uv5rgq8-5ixbmyrk-7d3wyi5',
 		data:{
 			"html": $('#InputName').val(),
 			"subject": $('#InputSubject').val(),
