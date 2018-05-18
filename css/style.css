@@ -367,7 +367,10 @@ button:focus,
 /*-------------------
  * Skills Progressbar
  *-------------------*/
-
+.progress {
+	width: 80%;
+}
+ 
 .progress-item {
     position : relative;
     }
@@ -408,6 +411,12 @@ button:focus,
     border-top   : 6px solid #313131;
     border-right : 8px solid transparent;
     }
+	
+@media (max-width : 768px) {
+	.progress {
+		width: 90%;
+	}
+}
 
 /*-------------------
  * Portfolio
