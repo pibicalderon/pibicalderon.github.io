@@ -22,6 +22,10 @@ body {
     font-weight : 300;
     background  : url("../img/pattern-bg.png") fixed;
     }
+	
+p {
+	text-align: justify;	
+	}
 
 /* --------------------------------------
  * Global Typography
